@@ -17,5 +17,39 @@ ul {
 }
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Barlow', sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  height: 538px;
+  background-size: 375px 538px;
+  background-image: url(../assets/images/mobile/image-header.jpg);
+}
+.header_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 24px;
+}
+.principal_text_container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+.title {
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  letter-spacing: 6.25px;
+  font-size: 2.5rem;
+  color: white;
+}
+.arrow {
+  width: 30px;
+  height: 108px;
 }
