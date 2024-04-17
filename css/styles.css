@@ -133,3 +133,106 @@ body {
     font-size: 15px;
   }
 }
+.main {
+  width: 375px;
+}
+.egg_image {
+  width: 375px;
+  height: 312px;
+  background-image: url(../assets/images/mobile/image-transform.jpg);
+  background-size: 375px 312px;
+}
+.text__block1 {
+  padding: 64px 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title__block {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #24303e;
+  letter-spacing: 0.24px;
+}
+.text__block {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #808397;
+  letter-spacing: 0.13px;
+  line-height: 30px;
+}
+
+.subtitle__block {
+  font-family: 'Fraunces', serif;
+  font-size: 0.9375rem;
+  letter-spacing: 1px;
+  line-height: 25px;
+  color: #24303e;
+}
+@media screen and (min-width: 768px) {
+  .block {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1440px;
+  }
+  .egg_image {
+    width: 720px;
+    height: 600px;
+    background-image: url(../assets/images/desktop/image-transform.jpg);
+    background-size: 720px 600px;
+    background-repeat: no-repeat;
+  }
+  .text__block1 {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding: 165px 158px 110px 157px;
+  }
+  .text__block {
+    text-align: left;
+  }
+}
+.cup_image {
+  width: 375px;
+  height: 312px;
+  background-image: url(../assets/images/mobile/image-stand-out.jpg);
+  background-size: 375px 312px;
+}
+@media screen and (min-width: 768px) {
+  .block_2 {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+  }
+  .cup_image {
+    width: 720px;
+    height: 600px;
+    background-image: url(../assets/images/desktop/image-stand-out.jpg);
+    background-size: 720px 600px;
+    background-repeat: no-repeat;
+  }
+  .text__block1 {
+    width: 720px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: flex-start;
+    padding: 165px 158px 110px 157px;
+  }
+  .text__block {
+    text-align: left;
+  }
+}
+.imagetext__block {
+  width: 375px;
+  height: 600px;
+  background-image: url(../assets/images/mobile/image-graphic-design.jpg);
+  background-size: 375px 600px;
+}
+.
