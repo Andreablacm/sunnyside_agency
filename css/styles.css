@@ -17,7 +17,7 @@ ul {
 }
 body {
   margin: 0;
-  font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 .header {
@@ -26,6 +26,7 @@ body {
   height: 538px;
   background-size: 375px 538px;
   background-image: url(../assets/images/mobile/image-header.jpg);
+  background-repeat: no-repeat;
   padding: 32px 24px;
 }
 .header_icons {
@@ -43,7 +44,7 @@ body {
 }
 .title {
   text-align: center;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-weight: 900;
   letter-spacing: 6.25px;
   font-size: 2.5rem;
@@ -69,7 +70,7 @@ body {
 }
 .menu::after {
   position: absolute;
-  content: '';
+  content: "";
   height: 24px;
   width: 24px;
   background-image: linear-gradient(315deg, white 50%, transparent 50% 100%);
@@ -85,7 +86,7 @@ body {
   margin-bottom: 32px;
 }
 .menu__linkbutton {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 0.9375rem;
   color: black;
   background-color: #fbd600;
@@ -150,7 +151,7 @@ body {
 }
 
 .title__block {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 2rem;
   font-weight: 900;
   color: #24303e;
@@ -165,7 +166,7 @@ body {
 }
 
 .subtitle__block {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 0.9375rem;
   letter-spacing: 1px;
   line-height: 25px;
@@ -230,9 +231,41 @@ body {
   }
 }
 .imagetext__block {
+  position: absolute;
   width: 375px;
   height: 600px;
   background-image: url(../assets/images/mobile/image-graphic-design.jpg);
   background-size: 375px 600px;
 }
-.
+.complet__textimageblock{
+position: relative;
+top: 398px ;
+padding-inline: 24px ;
+gap: 27px;
+} 
+.title__imageblock {
+
+  top: 350px;
+  font-size: 1.75rem;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  color: #24554a;
+  text-align: center;
+  letter-spacing: -0.0125rem;
+}
+.text__imageblock {
+
+  top: 377px;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.11px;
+  line-height: 27px;
+  text-align: center;
+  color: #24554A;
+}
+.imagetext__block2 {
+  background-image: url(../assets/images/mobile/image-gallery-orange.jpg);
+  width: 375px;
+  height: 600px;
+  background-size: 375px 600px;
+} 
